@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Landed on searched products Page]]>
+    </line>
+    <line>
+      <![CDATA[1-16 of 347 results for "Macbook - 2021"]]>
+    </line>
+    <line>
+      <![CDATA[Sorting is done for Featured Category]]>
+    </line>
+    <line>
+      <![CDATA[Sorting is done for Price: Low to High Category]]>
+    </line>
+    <line>
+      <![CDATA[Sorting is done for Price: High to Low Category]]>
+    </line>
+    <line>
+      <![CDATA[Sorting is done for Avg. Customer Review Category]]>
+    </line>
+    <line>
+      <![CDATA[Sorting is done for Newest Arrivals Category]]>
+    </line>
+    <line>
+      <![CDATA[Sorting is done for Books Category]]>
+    </line>
+    <line>
+      <![CDATA[Landed on searched products page]]>
+    </line>
+    <line>
+      <![CDATA[Not Landed on searched products Page]]>
+    </line>
+    <line>
+      <![CDATA[1-12 of 184 results for "Macbook - 2021"]]>
+    </line>
+    <line>
+      <![CDATA[Sorting is done for Featured Category]]>
+    </line>
+    <line>
+      <![CDATA[Sorting is done for Price: Low to High Category]]>
+    </line>
+    <line>
+      <![CDATA[Sorting is done for Price: High to Low Category]]>
+    </line>
+    <line>
+      <![CDATA[Sorting is done for Avg. Customer Review Category]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-14T13:20:38 IST" name="Suite" finished-at="2021-12-14T13:22:15 IST" duration-ms="97083">
+    <groups>
+    </groups>
+    <test started-at="2021-12-14T13:20:38 IST" name="Test2" finished-at="2021-12-14T13:22:15 IST" duration-ms="97083">
+      <class name="com.qa.testscript.TC_SearchFunctionality_001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscript.TC_SearchFunctionality_001@131774fe]" started-at="2021-12-14T13:20:39 IST" name="setUp" finished-at="2021-12-14T13:20:53 IST" duration-ms="14036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Search(java.lang.String)[pri:0, instance:com.qa.testscript.TC_SearchFunctionality_001@131774fe]" started-at="2021-12-14T13:20:57 IST" name="Search" data-provider="getData" finished-at="2021-12-14T13:21:47 IST" duration-ms="50174" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook - 2021]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[2]/div[1]/div[1]/div/span[3]/div[2]/div[14]/span/div/div/ul/li[7]/a"}
+  (Session info: chrome=96.0.4664.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-OAPST3F', ip: '192.168.0.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f1ec96bde082333703b319e16ea69e6, findElement {using=xpath, value=/html/body/div[1]/div[2]/div[1]/div[1]/div/span[3]/div[2]/div[14]/span/div/div/ul/li[7]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Greeshma\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51766/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f1ec96bde082333703b319e16ea69e6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[2]/div[1]/div[1]/div/span[3]/div[2]/div[14]/span/div/div/ul/li[7]/a"}
+  (Session info: chrome=96.0.4664.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-OAPST3F', ip: '192.168.0.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f1ec96bde082333703b319e16ea69e6, findElement {using=xpath, value=/html/body/div[1]/div[2]/div[1]/div[1]/div/span[3]/div[2]/div[14]/span/div/div/ul/li[7]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Greeshma\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51766/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f1ec96bde082333703b319e16ea69e6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.qa.testscript.TC_SearchFunctionality_001.Search(TC_SearchFunctionality_001.java:148)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Landed on searched products Page]]>
+            </line>
+            <line>
+              <![CDATA[1-16 of 347 results for "Macbook - 2021"]]>
+            </line>
+            <line>
+              <![CDATA[Sorting is done for Featured Category]]>
+            </line>
+            <line>
+              <![CDATA[Sorting is done for Price: Low to High Category]]>
+            </line>
+            <line>
+              <![CDATA[Sorting is done for Price: High to Low Category]]>
+            </line>
+            <line>
+              <![CDATA[Sorting is done for Avg. Customer Review Category]]>
+            </line>
+            <line>
+              <![CDATA[Sorting is done for Newest Arrivals Category]]>
+            </line>
+            <line>
+              <![CDATA[Sorting is done for Books Category]]>
+            </line>
+            <line>
+              <![CDATA[Landed on searched products page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Search(java.lang.String)[pri:0, instance:com.qa.testscript.TC_SearchFunctionality_001@131774fe]" started-at="2021-12-14T13:21:47 IST" name="Search" data-provider="getData" finished-at="2021-12-14T13:22:13 IST" duration-ms="26204" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Newest Arrivals
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-OAPST3F', ip: '192.168.0.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Newest Arrivals
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-OAPST3F', ip: '192.168.0.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+at com.qa.testscript.TC_SearchFunctionality_001.Search(TC_SearchFunctionality_001.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Not Landed on searched products Page]]>
+            </line>
+            <line>
+              <![CDATA[1-12 of 184 results for "Macbook - 2021"]]>
+            </line>
+            <line>
+              <![CDATA[Sorting is done for Featured Category]]>
+            </line>
+            <line>
+              <![CDATA[Sorting is done for Price: Low to High Category]]>
+            </line>
+            <line>
+              <![CDATA[Sorting is done for Price: High to Low Category]]>
+            </line>
+            <line>
+              <![CDATA[Sorting is done for Avg. Customer Review Category]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscript.TC_SearchFunctionality_001@131774fe]" started-at="2021-12-14T13:22:13 IST" name="tearDown" finished-at="2021-12-14T13:22:15 IST" duration-ms="1449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscript.TC_SearchFunctionality_001 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
